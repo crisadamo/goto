@@ -21,5 +21,8 @@ source $HOME/.bashrc)
 
 ###### For FISH shell:
 ```bash
-coming soon
+mkdir -p $HOME/.config/fish/functions; 
+and cd $HOME/.config/fish/functions; 
+and wget https://raw.githubusercontent.com/crisadamo/goto/master/goto.fish; 
+and chmod u+x goto.fish
 ```
