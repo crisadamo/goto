@@ -8,19 +8,19 @@ function goto
     echo
     echo "Options:"
     echo "--------"
-    echo "  [key]:                                  Go to the configured path."
+    echo "  [key]:                                  Go to the setted path."
     echo "  list | ls | l:                          List all available jumps."
-    echo "  remove | rm | d [key] | all:            Delete the specified key or all keys"
-    #echo "  rename | rn | r [old-key] [new-key]:    Rename a given key"
+    echo "  [remove | rm | d ] [key-name | all]:    Delete the specified key or all keys"
+    #echo "  rename | rn | r [old-key] [new-key]:   Rename a given key"
     echo "  add | a:                                Add a path to the jump list."
     echo "    Modifiers:"
     echo "    ----------"
     echo "      this | . :                          Add the current path and set the 'jump' "
-    echo "                                          key to the directory name."
-    echo "      this | . as [key]:                  Add the current path and set the 'jump' key."
+    echo "                                          key to the current directory name."
+    echo "      [this | .] as [key]:                Add the current path and specify the 'jump' key."
     echo "      [key] [path]:                       Add the desired path with the key."
     echo "  verion | v:                             Shows the current version."
-    echo "  help | v:                               Shows this menu."
+    echo "  help | h:                               Shows this menu."
   end
 
   function validate
