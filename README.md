@@ -1,7 +1,7 @@
 # Goto
 A missing goto command for your shell
 
-###### Go where you want to go quickly
+###### Go where you want, quickly
 
 
 
