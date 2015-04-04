@@ -17,7 +17,7 @@ function usage() {
   echo
   echo "Options:"
   echo "--------"
-  echo "  [key]:                                  Go to the setted path."
+  echo "  [key]:                                  Go to the set path."
   echo "  list | ls | l:                          List all available jumps."
   echo "  [remove | rm | d ] [key-name | all]:    Delete the specified key or all keys"
   #echo "  rename | rn | r [old-key] [new-key]:   Rename a given key"
