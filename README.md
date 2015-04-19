@@ -1,13 +1,13 @@
 # Goto
 A missing goto command for your shell
 
-###### Go where you want, quickly
+###### Go where you want
 
 
 
 #### Install
 
-Open the terminal and just paste this chuck of code on it and hit enter and you are done!
+Open the terminal, paste this chuck of code on it and hit enter. ¡Boom! you are done. Enjoy!
 
 ###### For BASH shell:
 ```bash
